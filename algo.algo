@@ -1,3 +1,4 @@
+ALGORITHM search
 VAR
     word: STRING;
     Test: BOOLEAN;
