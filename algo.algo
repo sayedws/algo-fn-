@@ -1,0 +1,14 @@
+VAR
+    word: STRING;
+    Test: BOOLEAN;
+BEGIN
+    IF (word.lenght <= 1) THEN
+        Test=True;
+        Write(word, "is palyndrom");
+    END_IF
+    IF (word[0] <> word[-1]) THEN
+        Test=False;
+        Write(word, "is not palyndrom");
+    END_IF
+    problem4(word[1:-1]);
+END
